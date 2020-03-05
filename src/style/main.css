@@ -152,3 +152,48 @@ h2.header-info--subheader span {
   text-align: center;
   text-transform: uppercase;
 }
+
+.demos-container {
+  max-width: 70%;
+  margin: 0 auto;
+}
+
+
+
+.demos-preview {
+  margin: 4em 0;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-content: center;
+}
+
+.demos-preview--container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-content: center;
+}
+
+.demos-preview--container-item {
+  box-sizing: border-box;
+  width: 30%;
+  margin: 1em .5em;
+}
+
+.demos-preview--container-item img{
+  width: 100%;
+  margin: 0;
+}
+
+.preview-img-info {
+  padding: 15px;
+  background: #030303;
+  border-radius: 0 0 5px 5px;
+  max-width: 22em;
+  color: #fff;
+  text-align: center;
+  font-size: 23px;
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+}
